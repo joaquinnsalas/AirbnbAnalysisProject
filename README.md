@@ -43,8 +43,9 @@ After running the Docker container, you will see an output in the terminal that 
 ## Repository Contents
 
 - **Dockerfile**: Contains all the commands to assemble the Docker image.
-- **notebooks/**: Jupyter notebooks with the analysis.
-- **data/**: Data files used in the notebooks.
+- **notebook**: Jupyter notebook with the analysis.
+- **data**: Data files used in the notebooks.
+- **Contribution Report**: A report of how each team member contributed to this project.
 
 ## Contributing
 
