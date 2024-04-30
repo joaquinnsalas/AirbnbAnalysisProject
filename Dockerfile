@@ -4,15 +4,14 @@ LABEL version="1.0"
 LABEL description="Data Analyst Project"
 
 RUN apt-get update -y
-# RUN apt-get install -y gcc
-# RUN apt-get install -y build-essential libpq-dev
-# RUN apt-get install -y graphviz
+RUN apt-get install -y gcc
+RUN apt-get install -y build-essential libpq-dev
+RUN apt-get install -y graphviz
 
 RUN pip install --upgrade pip
 
 # Installing packages
 RUN pip install \
-    plotly==5.18.0 \ 
     numpy==1.26.4 \
     pandas==2.2.0 \
     seaborn==0.13.2 \ 
