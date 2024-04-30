@@ -55,5 +55,3 @@ Contributions to this project are welcome. Please fork the repository and submit
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-This README is structured to provide a comprehensive guide for users to set up and run the analysis with ease. It includes detailed steps for installing Docker, building the Docker image, running the container, and accessing the Jupyter notebook. By following these instructions, users can replicate your analysis environment accurately, ensuring reproducibility and transparency.
