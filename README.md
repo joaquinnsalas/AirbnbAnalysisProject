@@ -31,7 +31,7 @@ Before you can run this project, you must have Docker installed on your computer
     After the image has been built, run the container using the following command:
 
     ```bash
-    docker run -v /path/to/your/AirbnbAnalysisProject:/home/notebooks -p 8888:8888 --name Analysis airbnbanalysis:0.0.1
+    docker run -v /YourPath/AirbnbAnalysisProject:/home/notebooks -p 8888:8888 --name Analysis airbnbanalysis:0.0.1
     ```
 
     Replace `/path/to/your/AirbnbAnalysisProject` with the absolute path to the `AirbnbAnalysisProject` folder on your computer. This command mounts the specified directory into the container and forwards port 8888 to access the Jupyter notebook.
