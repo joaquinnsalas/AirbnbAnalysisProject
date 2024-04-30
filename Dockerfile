@@ -1,7 +1,7 @@
 FROM python:3.11.7-slim
 LABEL maintainer="Joaquin Salas <jsalas2002@tamu.edu>"
 LABEL version="1.0"
-LABEL description="Data Analyst Project"
+LABEL description="Data Analyst"
 
 RUN apt-get update -y
 RUN apt-get install -y gcc
