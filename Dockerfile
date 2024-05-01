@@ -14,6 +14,7 @@ RUN pip install --upgrade pip
 RUN pip install \
     numpy==1.26.4 \
     pandas==2.2.0 \
+    pyarrow==16.0.0\
     seaborn==0.13.2 \ 
     jupyter==1.0.0 \  
     scikit-learn==1.4.0 \ 
