@@ -36,6 +36,12 @@ Before you can run this project, you must have Docker installed on your computer
 
     Replace `/path/to/your/AirbnbAnalysisProject` with the absolute path to the `AirbnbAnalysisProject` folder on your computer. This command mounts the specified directory into the container and forwards port 8888 to access the Jupyter notebook.
 
+   If when you run the container and click on the link and it shows up blank, change the formatting of your file path.
+   
+    ```bash
+   //c/Users/YourUsername/Downloads/AirbnbAnalysisProject:/home/notebooks -p 8888:8888 --name Analysis airbnbanalysis:0.0.1
+    ```
+    
 ### Accessing the Jupyter Notebook
 
 After running the Docker container, you will see an output in the terminal that includes a URL starting with `http://127.0.0.1:8888/` followed by a token. Copy this URL and paste it into your web browser to access the Jupyter notebook.
